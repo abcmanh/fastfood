@@ -1,0 +1,118 @@
+.container{
+    display: flex;
+    position: relative;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.cherryDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: var(--pink);
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: var(--themeRed);
+    font-size: 1.1rem;
+}
+.heroText{
+    display: flex;
+    font-size: 4rem;
+    font-weight: bold;
+    flex-direction: column;
+}
+.miniText{
+    width: 70%;
+    color: var(--gray);
+    font-weight: 600;
+}
+.btn{
+    border: 4px solid burlywood;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    margin-left: 12rem;
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+    color: black;
+    background-color: burlywood;
+    border-radius: 2rem;
+}
+.right{
+    position: relative;
+}
+.imageContainer{
+    width: 40rem;
+    top: 5rem;
+    left: 5rem;
+}
+.ContactUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 5rem;
+    top: 6rem;
+    gap: 1rem;
+    left: -10rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    color: var(--themeRed);
+}
+.ContactUs div{
+    background: green;
+    border-radius: 50%;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+}
+.ContactUs:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.Pizza{
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    border-radius: 0.5rem; 
+    margin-left: 2rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+.Pizza>:nth-child(1)
+{
+    width: 6rem;
+    height: 4rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.Pizza>:nth-child(2)
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.Pizza:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    padding-left: 2rem;
+}
